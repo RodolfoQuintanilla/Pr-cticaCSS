@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Work+Sans:wght@100;200;300;400;500&display=swap');
+
+.navegacion {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Lora', serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.299);
+}
+
+.barra {
+    color: #000000;
+    text-decoration: none;
+}
+
+.name {
+    display: flex;
+    color: rgb(63, 99, 229);
+    justify-content: start;
+    font-size: 30px;
+
+}
+
+.item {
+    margin-left: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: rgb(63, 99, 229);
+}
