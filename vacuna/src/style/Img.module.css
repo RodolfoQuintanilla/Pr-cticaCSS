@@ -24,10 +24,59 @@ svg {
 
 .textitos {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .ImagenVacuna {
-    height: 900px;
+    height: 700px;
     width: 700px;
+    margin-left: 0;
 
+}
+
+.adicional svg {
+    color: #2b4bc9;
+    background-color: #f1f5ff;
+}
+
+.cuadro {
+    display: flex;
+    width: 55%;
+    height: 100px;
+    background-color: #fefeffcf;
+    position: absolute;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 4px rgba(128, 128, 128, 0.114);
+}
+
+.cuadro svg {
+    color: #2b4bc9;
+    background-color: #f1f5ff;
+
+}
+
+.items {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.items button {
+    display: flex;
+    align-items: start;
+    background-color: #2b4bc9;
+    border: none;
+    color: #f1f5ff;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 9px;
+
+}
+
+button:hover {
+    background-color: rgb(181, 197, 255);
 }
