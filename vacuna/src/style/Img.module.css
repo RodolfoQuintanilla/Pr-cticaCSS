@@ -1,0 +1,33 @@
+section {
+    display: flex;
+
+}
+
+h1 {
+    color: #1f3e71;
+    font-size: 50px;
+}
+
+p {
+    color: #6d7b93;
+    font-size: 20px;
+}
+
+.Texto {
+    padding: 100px;
+}
+
+svg {
+    color: #ffd012;
+    background-color: #fdf3cb;
+}
+
+.textitos {
+    display: flex;
+}
+
+.ImagenVacuna {
+    height: 900px;
+    width: 700px;
+
+}
