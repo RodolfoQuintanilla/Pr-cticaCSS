@@ -1,0 +1,11 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}

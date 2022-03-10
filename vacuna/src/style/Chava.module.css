@@ -1,0 +1,15 @@
+.imagenes {
+    height: 1000px;
+    width: 100%;
+}
+
+.Titulo {
+    font-size: 30px;
+    padding: 25px;
+}
+
+.datos {
+    display: flex;
+    column-gap: 40px;
+
+}

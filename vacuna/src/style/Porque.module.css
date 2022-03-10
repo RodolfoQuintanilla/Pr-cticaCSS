@@ -1,0 +1,41 @@
+.contenedor {
+    margin-left: 5%;
+
+}
+
+.cuadros {
+    display: flex;
+    margin-top: 80px;
+    padding: 25px;
+}
+
+.cuadro {
+
+    align-items: start;
+    width: 600px;
+    height: 250px;
+    border: rgba(202, 202, 202, 0.197) 3px solid;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.cuadro:hover {
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.265);
+}
+
+svg {
+    color: #2b4bc9;
+    background-color: #f1f5ff;
+
+}
+
+svg.cuadro {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #1f3e71;
+}
