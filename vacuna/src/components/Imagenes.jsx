@@ -2,6 +2,8 @@ import React from 'react';
 import vacuna from '../img/vacuna.jpg'
 import styles from '../style/Img.module.css'
 import Chava from './Chava';
+import Chavo from './Chavo';
+import Footer from './Footer';
 import NuevaSeccion from './NuevaSeccion';
 import Porque from './Porque';
 
@@ -76,6 +78,8 @@ const Imagenes = () => {
             <Porque />
 
             <Chava />
+            <Chavo />
+            <Footer />
         </article>
     );
 };

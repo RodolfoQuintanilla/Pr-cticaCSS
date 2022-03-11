@@ -1,0 +1,70 @@
+.general {
+    display: flex;
+    margin-top: 20px;
+}
+
+.imagenes {
+    height: 1000px;
+    width: 100%;
+}
+
+.contenido {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.cuadrito {
+
+    border: 2px solid rgba(74, 74, 74, 0.019);
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.tex1 {
+
+    font-size: 30px;
+    color: #c62c2c;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.titulos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 10px;
+    column-gap: 5px;
+}
+
+.numeros {
+    font-size: 15px;
+    margin-top: 0%;
+}
+
+.cajon {
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    background-color: #f1f5ff;
+    color: #3959d7;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 8px
+}
+
+.todo {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10%;
+    row-gap: 50px;
+
+    margin-top: 150px;
+    margin-left: 150px;
+}
